@@ -74,5 +74,6 @@ def get_tendencias():
                         mysql_insertArticulos(item_id,items['title'],items['price'],reviews['rating_average'],total,aux)
                         mysql_insertReview(review['id'],review['title'],review['content'],reviews['rating_average'],review['date_created'],item_id)
 
+
 if __name__=="__main__":
     get_tendencias()

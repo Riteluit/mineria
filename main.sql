@@ -1,7 +1,7 @@
 drop database if exists mineria;
 
 create database if not exists mineria;
-
+ 
 create table mineria.articulos(
     id varchar(15) primary key,
     nombre_categoria varchar(80),
